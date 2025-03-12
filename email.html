@@ -13,7 +13,7 @@
         function openOutlookEmail() {
             var body = document.getElementById('text').value;
             var subject = "Request Download Link";
-            var mailto_link = 'mailto:john.tan@sh-cogent.com.sg?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+            var mailto_link = 'mailto:?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
             window.location.href = mailto_link;
         }
     </script>
